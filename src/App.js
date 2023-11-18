@@ -7,6 +7,7 @@ import Log from "./Components/Log";
 function App() {
   const [activePlayer, setActivePlayer] = useState("X");
 
+
   function handlePlayer() {
     setActivePlayer((currActivePlayer) =>
       currActivePlayer === "X" ? "0" : "X"
